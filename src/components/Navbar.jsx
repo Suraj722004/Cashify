@@ -13,8 +13,9 @@ const Navbar = () => {
     
    
   return (
+    
     <>
-    <div className='flex mt-6 '>
+    <div className='flex mt-7 '>
       <img src={logo}  className="ml-5 w-40 h-14 mb-6" alt="" />
       <div className='flex h-12 ml-4 border border-gray-100 bg-gray-200'>
         <img src={lens} />
@@ -28,11 +29,11 @@ const Navbar = () => {
        <button onClick={()=>setLoginPop(!loginPop)}  className="  ml-5 bg-green-700 w-40 h-10 rounded-md">Login</button>
 
     
-    </div>
-    
+       </div>
+     
     {loginPop && <Login/>}
+    </> 
     
-    </>
   )
 }
 
