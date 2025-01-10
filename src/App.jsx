@@ -18,9 +18,9 @@ function App() {
  
 
   return (
-    <>
-    <div className='w-[100%]'>
-    <div className='w-[80vw] ml-[20%]'>
+   
+    <div className='w-[100%] justify-center'>
+    <div className='w-[90%] ml-[10%]'>
     <Navbar/>
     <MenuBar/>
     <Slider/>
@@ -35,7 +35,8 @@ function App() {
     </div>
     </div>
     
-          </>
+    
+        
   )
 }
 
