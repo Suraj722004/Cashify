@@ -23,10 +23,10 @@ const Navbar = () => {
       </div>
        <div className='flex h-12 p-3 ml-1  cursor-pointer'>
         <img src={location} className='w-6 h-5 mt-1' alt="" />
-        <h1 className='text-bold'>Mumbai</h1>
+        <h1 className='text-bold text-sm mt-1'>Mumbai</h1>
         <img src={arrow} className='w-8 h-7 ' />
        </div>
-       <button onClick={()=>setLoginPop(!loginPop)}  className="  ml-8 bg-green-700 h-[30px] w-[200px] rounded-md">Login</button>
+       <button onClick={()=>setLoginPop(!loginPop)}  className=" mt-2 ml-8 bg-green-700 h-[30px] w-10/12 rounded-lg text-sm">Login</button>
 
     
        </div>
