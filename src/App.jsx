@@ -19,8 +19,8 @@ function App() {
 
   return (
    
-    <div className='w-[100%] justify-center'>
-    <div className='w-[90%] ml-[10%]'>
+    <div className='w-[100%] justify-center items-center ml-20'>
+    <div className='w-[85%] '>
     <Navbar/>
     <MenuBar/>
     <Slider/>
