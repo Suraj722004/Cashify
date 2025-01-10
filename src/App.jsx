@@ -19,6 +19,8 @@ function App() {
 
   return (
     <>
+    <div className='w-[100%]'>
+    <div className='w-[80vw] ml-[20%]'>
     <Navbar/>
     <MenuBar/>
     <Slider/>
@@ -30,6 +32,8 @@ function App() {
     <Stores/>
     <Deals/>
     <Footer/>
+    </div>
+    </div>
     
           </>
   )
